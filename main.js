@@ -20,7 +20,6 @@ Number: 20,
 isbig: 20 == 5,
 };
 console.log(toys[5]);
-console.log(secondfigs.isbig);
 
 const toysinfo=[
     {
@@ -71,17 +70,17 @@ console.log(ammar[7].content + 7 + "is  bigger than 5");
 console.log(ammar[8].content + 8 + "is  bigger than 5");*/
 
 for(let i = 0; i < 9; i++) {
-    console.log(ammar[i].content +" "+ ammar[i].Number);
-    console.log(ammar[i].Number > 5);
+    console.log(toysinfo[i].content +" "+ toysinfo[i].Number);
+    console.log(toysinfo[i].Number > 5);
 }
 
-if(ammar[4].Number > 5){
-   console.log(ammar[4].content + " "+" is bigger than 5");
-   console.log(ammar[4].Number - 5);
+if(ammar.Number > 5){
+   console.log(ammar.content + " "+" is bigger than 5");
+   console.log(ammar.Number - 5);
    
 }else{
-   console.log(ammar[4].content + " "+" is bigger than 5");
-   console.log(ammar[4].Number - 5);
+   console.log(ammar.content + " "+" is bigger than 5");
+   console.log(ammar.Number - 5);
 }
 
 function add(f, y){
@@ -94,7 +93,7 @@ const azeim = add(15, 20);
 
 console.log(azeim);
 function isBiggerThan5(x){    
-if(ammar[4].Number > 5) {
+if(x.Number > 5) {
    console.log(x.content + " "+" is bigger than 5");
    console.log(x.Number - 5);
 
@@ -103,4 +102,6 @@ if(ammar[4].Number > 5) {
    console.log(x.Number-5);
    }
 }
-isBiggerThan5(ammar[3]);
+isBiggerThan5(toysinfo
+    
+    [3]);
