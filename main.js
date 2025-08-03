@@ -104,4 +104,10 @@ if(x.Number > 5) {
 }
 isBiggerThan5(toysinfo
     
-    [3]);
+    [3]); 
+   const str =
+   
+   function vowls
+    console arr= stcount(y) (
+    lot counter=0;
+    const vowls="aeuioy";
